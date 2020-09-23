@@ -1,0 +1,1 @@
+<div style="text-align: center;"><a href="{{url('/')}}"><img src="{{asset('assets/images/artvi-croppd.png')}}" alt="" style="height: 50px; width: 50px;"></a></div>

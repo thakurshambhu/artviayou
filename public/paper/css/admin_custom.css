@@ -1,0 +1,44 @@
+div#loader_gif {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+    background: #fff;
+    opacity: 0.8;
+
+}
+div#loader_gif  img{position: absolute; left:50%; top:50%; transform:translate(-50%, -50%); width: 100px;}
+.slick-slide{
+	padding:0 15px!important;
+}
+/*.sidebar .logo a.logo-mini{width: 155px !important;}*/
+/*select.form-control{height: auto !important;}*/
+.sidebar .logo:after, .off-canvas-sidebar .logo:after{display: none;}
+.actionLink{font-size: 12px; text-decoration: none; font-weight: 600; color: #222222; cursor: pointer; text-align: center; width: 100%;     display: block;
+    padding: 15px 0;}
+    .dashBoardRow, .dashBoardRow .row{
+    	width: auto !important; 
+    }
+    .unlikeIcon{transform: rotate(180deg);     transform-origin: left center;
+    position: relative;
+    top: -10px;
+    left: 45px;}
+    table.dataTable tbody td:first-child{width: 100px;}
+table.dataTable tbody td:first-child a{width: 100px;}
+table.dataTable tbody td:first-child a img{width: 100%;}
+    
+   
+    table.dataTable tbody td:nth-child(2){
+    	word-break: break-all;
+    	max-width: 574px;
+    }
+
+@media (max-width: 767px){
+ table.dataTable tbody td:nth-child(2){
+    	word-break: inherit;
+    }
+}
+
+    
